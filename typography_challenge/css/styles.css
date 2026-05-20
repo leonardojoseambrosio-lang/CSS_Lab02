@@ -76,15 +76,15 @@ code {
    ========================================================= */
 
 .page-one {
-  font-size: 9px;              /* TODO: increase to a readable rem value */
-  line-height: 1;              /* TODO: improve line-height */
-  color: #aaa;                 /* TODO: improve contrast */
+  font-size: clamp(0.8em, 2vw, 1.5em); /* TODO: increase to a readable rem value */
+  line-height:clamp(1.3em,2vw,1.5em); /* TODO: improve line-height */
+  color: #464646;                 /* TODO: improve contrast */
 }
 
 .page-one p {
-  text-align: center;          /* TODO: paragraphs should not be centered */
-  text-transform: capitalize;  /* TODO: remove random capitalization */
-  letter-spacing: -1px;        /* TODO: reset letter spacing */
+  text-align: left;          /* TODO: paragraphs should not be centered */
+  text-transform: none;  /* TODO: remove random capitalization */
+  letter-spacing: 0.1rem;        /* TODO: reset letter spacing */
 }
 
 .page-one .hero-title {
@@ -96,7 +96,7 @@ code {
 }
 
 .page-one .card-title {
-  font-family: Impact, sans-serif;
+  font-family: Georgia, sans-serif;
 }
 
 .page-one .quote {
@@ -104,7 +104,8 @@ code {
 }
 
 .page-one .button {
-  font-family: Papyrus, fantasy;
+  font-family: Georgia, serif;
+  font-style: bold;
   padding: 1rem 1.5rem;
   margin-top: 1rem;
 }
