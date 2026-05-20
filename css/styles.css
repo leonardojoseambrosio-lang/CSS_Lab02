@@ -221,14 +221,14 @@ Example:
    ========================================================= */
 
 .page-four {
-  font-family: cursive; /* TODO: replace after adding custom web font */
+  font-family: "Vend Sans", sans-serif; /* TODO: replace after adding custom web font */
   color: #222;
   line-height: 1.6;
 }
 
 .page-four h1,
 .page-four h2 {
-  font-family: fantasy; /* TODO: replace with heading font stack */
+  font-family: "Stack Sans Text", sans-serif;
 }
 
 .brand-panel {
@@ -263,3 +263,4 @@ Example:
   font-family: "Merriweather", Georgia, serif;
 }
 */
+
