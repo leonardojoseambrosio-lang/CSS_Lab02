@@ -76,7 +76,6 @@ code {
    ========================================================= */
 
 .page-one {
-  font-family: Arial, Helvetica, sans-serif;  /*changed the font*/
   font-size: clamp(0.8em, 2vw, 1.5em); /* TODO: increase to a readable rem value */
   line-height:clamp(1.3em,2vw,1.5em); /* TODO: improve line-height */
   color: #464646;                 /* TODO: improve contrast */
@@ -110,6 +109,10 @@ code {
   font-style: bold;
   padding: 1rem 1.5rem;
   margin-top: 1rem;
+}
+
+nav a{
+   font-family: Arial, Helvetica, sans-serif;  /*changed the font*/
 }
 
 
